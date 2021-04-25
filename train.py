@@ -38,7 +38,7 @@ def load_split(basePath, csvPath):
 	data = np.array(data)
 	labels = np.array(labels)
 	return (data, labels)
-NUM_EPOCHS = 20
+NUM_EPOCHS = 12
 learning_rate = 1e-3
 Batch_Size = 64
 labelNames = open("signnames.csv").read().strip().split("\n")[1:]
